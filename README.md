@@ -89,7 +89,7 @@ library version can give a slightly different policy; the trained policies are t
 ## Data
 
 `scripts/data/` contains the vessel-call record (arrival times, terminal, vessel class) from which instances are
-resampled, and the berth data. [[FILL: source of the arrival records and its terms of use.]] Handling times and all
+resampled, and the berth data. The arrival records (50 port calls at the HHLA container terminals Altenwerder (CTA), Burchardkai (CTB) and Tollerort (CTT), 22-26 April 2025) were taken from the publicly available sailing list of Hamburger Hafen und Logistik AG (HHLA), https://coast.hhla.de/report?id=Standard-Report-Segelliste, accessed in April 2025; one record per port call (arrival time, terminal, vessel class) was extracted. Handling times and all
 other instance attributes are generated (see Sec. 5 of the paper and `jos_core/instances.py`).
 
 ## License and citation
