@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+scripts/fig_*.pdf
+scripts/results/tables.tex
+scripts/results/ckpt_*.pt

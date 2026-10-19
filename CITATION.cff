@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "Code and data for: Learned search control for integrated berth allocation and quay crane assignment under wind-induced disruptions"
+authors:
+  - family-names: Niebles-Atencio
+    given-names: Fabricio
+    affiliation: University of Hamburg
+  - family-names: Voß
+    given-names: Stefan
+    affiliation: University of Hamburg
+version: 1.0-jos
+license: MIT
+preferred-citation:
+  type: article
+  title: "Learned search control for integrated berth allocation and quay crane assignment under wind-induced disruptions"
+  authors:
+    - family-names: Niebles-Atencio
+      given-names: Fabricio
+    - family-names: Voß
+      given-names: Stefan
+  journal: "Journal of Scheduling"
+  year: 2026
+  notes: "Submitted"

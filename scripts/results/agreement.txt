@@ -1,0 +1,18 @@
+(A) exact optimum replayed by the simulator
+  |V|=6 seed 3000 mu=10.0: solver OPTIMAL obj=25 | simulator replay Z=25 nu=0 -> AGREE
+  |V|=6 seed 3001 mu=15.0: solver OPTIMAL obj=49 | simulator replay Z=49 nu=0 -> AGREE
+  |V|=6 seed 3002 mu=20.0: solver OPTIMAL obj=29 | simulator replay Z=29 nu=0 -> AGREE
+  |V|=8 seed 3003 mu=10.0: solver OPTIMAL obj=83 | simulator replay Z=83 nu=0 -> AGREE
+(B) full-size simulator schedules fixed in the exact model
+  3B-6QC mu10 greedy: |V|=50 T=157 simulator Z=1194 | model OPTIMAL obj=1194 -> AGREE
+  3B-6QC mu10 LNS-300: |V|=50 T=158 simulator Z=1087 | model OPTIMAL obj=1087 -> AGREE
+  mu20 greedy: |V|=50 T=154 simulator Z=1389 | model OPTIMAL obj=1389 -> AGREE
+  mu20 LNS-300: |V|=50 T=168 simulator Z=1258 | model OPTIMAL obj=1258 -> AGREE
+  sig8 greedy: |V|=50 T=156 simulator Z=1525 | model OPTIMAL obj=1525 -> AGREE
+  sig8 LNS-300: |V|=50 T=158 simulator Z=1314 | model OPTIMAL obj=1314 -> AGREE
+  5B-10QC greedy: |V|=50 T=120 simulator Z=327 | model OPTIMAL obj=327 -> AGREE
+  5B-10QC LNS-300: |V|=50 T=121 simulator Z=313 | model OPTIMAL obj=313 -> AGREE
+  V100 mu15 greedy: nu=1 (infeasible by construction; not fixable) Z=5391
+  V100 mu15 LNS-300: |V|=100 T=312 simulator Z=5229 | model OPTIMAL obj=5229 -> AGREE
+(C) crane-specific vs aggregated model
+  |V|=3 T=24: aggregated OPTIMAL 15 | crane-specific OPTIMAL 15 -> AGREE
